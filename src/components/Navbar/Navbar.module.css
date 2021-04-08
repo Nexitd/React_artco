@@ -1,0 +1,96 @@
+@import '../styles/fonts.css';
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 1440px;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 0 150px;
+}
+
+.logo__name {
+    font-family: 'Karnivore Tecca', sans-serif;
+    font-size: 26px;
+    line-height: 36px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 28px;
+    width: 25%;
+    position: relative;
+}
+
+.logo__name::before {
+    content: url('../../assets/images/Header/logo.svg');
+    vertical-align: middle;
+    position: absolute;
+    left: -100px;
+    top: -25px;
+}
+
+.nav__item {
+    font-weight: 550;
+    font-size: 18px;
+    line-height: 18px;
+    color: #fff;
+    list-style-type: none;
+    display: block;
+}
+
+.nav__link {
+    font-weight: 550;
+    font-size: 18px;
+    line-height: 18px;
+    color: #fff;
+    list-style-type: none;
+    display: block;
+    text-decoration: none;
+    outline: none;
+    text-align: center;
+    padding: 15px;
+}
+
+.nav__list {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between
+}
+
+.nav__list .nav__item, .nav__item:last-child {
+    margin-top: 38px;
+    text-align: center;
+    width: 25%;
+}
+
+.ml {
+    text-align: right !important;
+}
+
+/* Media */
+
+@media (min-width: 2000px) {
+    .nav__item, .nav__link {
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .nav__list {
+        display: none;
+    }
+
+    .nav p {
+        width: 50% !important;
+    }
+}
+
+@media(max-width: 550px) {
+    .nav {
+        padding: 0 17px;
+    }
+
+    
+}

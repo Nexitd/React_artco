@@ -1,0 +1,22 @@
+.image__cont {
+    max-width: 1440px;
+    padding: 40px 0;
+    box-sizing: border-box;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.image__cont img {
+    max-width: 25%;
+}
+
+/* Meida */
+
+@media(max-width: 550px) {
+    .image__cont {
+        padding: 20px 13px;
+    }
+}

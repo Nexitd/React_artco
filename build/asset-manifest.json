@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.17f7df60.chunk.css",
+    "main.js": "/static/js/main.489cbc5d.chunk.js",
+    "main.js.map": "/static/js/main.489cbc5d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f98aac3e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f98aac3e.js.map",
+    "static/js/2.f8bb6a40.chunk.js": "/static/js/2.f8bb6a40.chunk.js",
+    "static/js/2.f8bb6a40.chunk.js.map": "/static/js/2.f8bb6a40.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.17f7df60.chunk.css.map": "/static/css/main.17f7df60.chunk.css.map",
+    "static/js/2.f8bb6a40.chunk.js.LICENSE.txt": "/static/js/2.f8bb6a40.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/static/media/KARNIVOT.c7854e06.ttf",
+    "static/media/Navbar.module.css": "/static/media/logo.b4fd01d3.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f98aac3e.js",
+    "static/js/2.f8bb6a40.chunk.js",
+    "static/css/main.17f7df60.chunk.css",
+    "static/js/main.489cbc5d.chunk.js"
+  ]
+}

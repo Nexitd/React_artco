@@ -1,0 +1,159 @@
+
+.cont {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 180px;
+    animation: popup .3s ease-in;
+} 
+
+.cont .descr, .img {
+    width: 50%;
+}
+
+.title, .subtitle {
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 37px;
+    color: #fff;
+    margin-top: 4px;
+}
+
+.description {
+    font-size: 18px;
+    line-height: 26px;
+    color: #fff;
+    width: 488px;
+    margin: 16px 0 27px;
+}
+
+.price {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+
+}
+
+.old__price {
+    font-size: 26px;
+    font-weight: 550;
+    line-height: 37px;
+    color: #A389B7;
+    text-decoration-line: line-through;
+}
+
+.current__price {
+    margin: 2px 0;
+    font-weight: 550;
+    font-size: 40px;
+    line-height: 58px;
+    color: #B562F5;
+}
+
+.price__descr {
+    font-size: 18px;
+    line-height: 26px;
+    color: #B562F5;
+}
+
+.price__section button {
+    margin-left: 84px;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    padding-left: 152px;
+}
+
+.img img {
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes popup {
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+
+/* Media */
+@media (max-width: 900px) {
+    .price {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .current__price {
+        font-size: 25px;
+    }
+
+    .price__descr {
+        font-size: 13px;
+        margin-bottom: 20px;
+    }
+
+    .description {
+        width: 100%;
+    }
+
+    .img {
+        padding: 0;
+    }
+}
+
+@media(max-width: 550px) {
+    .cont .descr, .img {
+        width: 100%;
+    }
+
+    .title, .subtitle {
+        font-size: 16px;
+        line-height: 23px;
+    }
+
+    .description {
+        display: none;
+    }
+
+    .old__price {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .current__price {
+        font-size: 21px;
+        line-height: 30px;
+    }
+
+    .price__descr {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .price {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .img {
+        padding-left: 5px;
+    }
+
+    .price__section  {
+        position: relative;
+    }
+
+    .price__section button {
+        margin-left: 0;
+        position: absolute;
+        top: 28px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}

@@ -1,0 +1,23 @@
+.arend {
+    background: #fff;
+    border-radius: 50px;
+    width: 216px;
+    line-height: 64px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #111111;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    box-sizing: content-box;
+    box-shadow: 0 0 24px 10px rgba(137, 74, 186, 0.5);
+}
+
+@media (max-width: 550px) {
+    .arend {
+        box-sizing: border-box;
+        width: 172px;
+        line-height: 52px;
+        font-size: 14px;
+    }
+}

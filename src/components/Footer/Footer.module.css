@@ -1,0 +1,45 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0 0;
+}
+
+.telephone {
+    text-align: center;
+    margin-right: 14px;
+}
+
+.footer__tel {
+    font-weight: 550;
+    font-size: 18px;
+    line-height: 18px;
+    color: #1d1d1d;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.social_networks {
+    padding: 22px 0 31px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.social_networks img {
+    margin-right: 24px;
+}
+
+.footer__text {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    color: #969696;
+    margin-bottom: 8px;
+}
+
+.footer__text span {
+    text-decoration: underline;
+}

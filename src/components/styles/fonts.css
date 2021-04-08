@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Karnivore Tecca';
+    src: url('../../assets/fonts/KARNIVOT.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyr';
+    src: url('../../assets/fonts/HelveticaNeueCyr-Light.otf') format('opentype');
+}

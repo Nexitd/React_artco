@@ -1,0 +1,171 @@
+.cont__rend {
+    padding: 102px 0 100px;
+}
+
+.title {
+    font-size: 51px;
+    font-weight: bold;
+    line-height: 73px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form__input {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    font-weight: 550;
+    font-size: 20px;
+    line-height: 29px;
+    color: #fff;
+    margin: 0 0 8px;
+}
+
+.form input {
+    padding: 8px;
+    width: 536px;
+    height: 66px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    background-color: transparent;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.form input::placeholder {
+    color: #fff;
+}
+
+.rend {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.politic {
+    margin-left: 20px;
+    width: 300px;
+    font-size: 18px;
+    line-height: 26px;
+    color: #fff;
+}
+
+.politic span {
+    text-decoration: underline;
+}
+
+.arend {
+    background: #fff;
+    border-radius: 50px;
+    width: 216px;
+    line-height: 64px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #111111;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    box-sizing: content-box;
+    box-shadow: 0 0 24px 10px rgba(137, 74, 186, 0.5);
+}
+
+.valid__cont {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.valid__cont svg {
+    border: 1px solid #00d655;
+    border-radius: 50%;
+    padding: 10px;
+    position: absolute;
+    right: -60px;
+    animation: popup .3s ease-in;
+}
+
+.valid__cont svg path{
+    fill: #00d655;
+}
+
+@keyframes popup {
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+/* Media */
+
+@media (min-width: 2000px) {
+    .valid__cont input {
+        width: 630px;
+    }
+}
+
+@media (max-width: 550px) {
+    .cont__rend {
+        padding: 36px 16px;
+    }
+
+    .title {
+        margin-bottom: 24px;
+        font-size: 21px;
+        line-height: 30px;
+    }
+
+    .name {
+        font-size: 16px;
+        line-height: 23px;
+    }
+
+    .valid__cont {
+        margin-bottom: 24px;
+    }
+
+    .valid__cont input {
+        width: 100%;
+        font-size: 16px;
+        line-height: 23px;
+        height: 57px;
+    }
+
+    .arend {
+        box-sizing: border-box;
+        width: 172px;
+        line-height: 52px;
+        font-size: 14px;
+    }
+
+    .rend {
+        flex-direction: column;
+    }
+
+    .politic {
+        font-size: 14px;
+        line-height: 20px;
+        margin-left: 0;
+        margin-top: 38px;
+        text-align: center;
+    }
+}
