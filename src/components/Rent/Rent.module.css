@@ -168,4 +168,22 @@
         margin-top: 38px;
         text-align: center;
     }
+
+    .form {
+        padding: 0;
+    } 
+}
+
+@media (min-width: 551px) and (max-width: 700px) {
+    .form {
+        padding: 0 100px;
+    }  
+    
+    .form__input {
+        width: 100%;
+    }
+
+    .valid__cont input {
+        width: 100%;
+    }
 }
